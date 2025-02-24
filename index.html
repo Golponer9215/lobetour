@@ -1,56 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Teko:wght@300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-    <nav style="display: flex; justify-content: space-between; align-items: center;margin: 30px;">
-        <div style="display: flex;align-items: center;">
-            <h1>lobe</h1>
-            <img src="img/Screenshot_from_2025-02-19_07-27-31-removebg-preview.png" width="100px" alt="">
-        </div>
-        <div class="navlinks">
-         <a href="">Overview</a>
-         <a href="">Examples</a>
-         <a href="">Tour</a>
-         <a href="">Blog</a>
-         <a href="">Help</a>
-        </div>
-        <div>
-            <button>Download</button>
-        </div>
-    </nav>
+   <nav >
+ <div class="main-div">
+    <div class="logo">
+        <span><h1>lobe</h1></span>
+        <img src="img/Screenshot_from_2025-02-19_07-27-31-removebg-preview.png" width="70" alt="">
+    </div>
+    <div>
+        <ul class="nav-links">
+         <li><a href="#">Overview</a></li>
+         <li><a href="#">Examples</a></li>
+         <li><a href="#">Tour</a></li>
+         <li><a href="#">Blog</a></li>
+         <li><a href="#">Help</a></li>
+        </ul>
+    </div>
+    <div>
+        <button class="nav-btn">Download</button>
+    </div>
+ </div>
+   </nav>
     <br>
     <br>
    <div style="align-items: center;">
     <div style="text-align: center; ">
-        <h1>Lobe <span>Tour</span></h1>
+        <h1>Lobe <span style="color:#04ddb2 ;">Tour</span></h1>
        <p> Build your machine learnig model in ten <br>minutes. No code or experience required.</p>
     </div>
     <br>
     <br>
-    <div style="padding-left: 300px;">
-        <img src="img/Screenshot from 2025-02-19 09-27-46.png" alt="">
+    <div style="padding-left: 280px; ">
+        <div class="vid">
+        <video class="video" width="640"  height="360"  controls>
+            <source src="video/3129671-uhd_3840_2160_30fps.mp4" type="video/ogg">
+        </video>
+        </div>
     </div>
     <br>
     <br>
     <div style="text-align: center;">
         <h1>Train your app <br> with lobe</h1>
-        <button>Download</button>
+        <button class="nav-btn">Download</button>
     </div>
-   </div> 
-    <footer style="display: flex; justify-content: space-between;">
-        <div style="">
+   </div>
+   <br>
+   <br>
+   <hr>
+    <footer style="display: flex; justify-content: space-between; margin-left: 200px; margin-right: 200px;">
+    
+        <div>
             <div style="display: flex;">
             <h1>lobe</h1>
-            <img src="img/Screenshot_from_2025-02-19_07-27-31-removebg-preview.png" width="100px" alt="">
+            <img src="img/Screenshot_from_2025-02-19_07-27-31-removebg-preview.png" width="70px" alt="">
             </div>
             <div>
             <p> A product by Microsoft. <br>
-            All rights researved. <br>
-            &copy;Microsoft 2021 <br>
+                <br>
+            All rights researved.
+             <br>
+             <br>
+            &copy;Microsoft 2021 
+            <br>
            </p>
            </div>
         </div>
@@ -58,9 +79,12 @@
             <h3>About</h3>
             Download
             <br>
+            <br>
             Overview
             <br>
+            <br>
             Examples
+            <br>
             <br>
             Blog
 
@@ -69,9 +93,12 @@
             <h3>General</h3>
             Notice
             <br>
+            <br>
             License
             <br>
+            <br>
             Press Inquiry
+            <br>
             <br>
             Press Images
         </div>
@@ -79,19 +106,24 @@
             <h3>Resouces</h3>
             Help
             <br>
+            <br>
             Tour
             <br>
+            <br>
             Contact
+            <br>
             <br>
             Privacy
         </div>
         <div>
-        <img src="img/chat.png" width="50px">  
-        <img src="img/twitter (1).png" width="50px" alt=""> 
-        <img src="img/social.png" width="50px"> 
+            <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgb(70, 235, 221);transform: ;msFilter:;"><path d="M12 2C6.486 2 2 5.589 2 10c0 2.908 1.898 5.516 5 6.934V22l5.34-4.005C17.697 17.852 22 14.32 22 10c0-4.411-4.486-8-10-8zm0 14h-.333L9 18v-2.417l-.641-.247C5.67 14.301 4 12.256 4 10c0-3.309 3.589-6 8-6s8 2.691 8 6-3.589 6-8 6z"></path></svg></span>
+            <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgb(67, 204, 174);transform: ;msFilter:;"><path d="M20.947 8.305a6.53 6.53 0 0 0-.419-2.216 4.61 4.61 0 0 0-2.633-2.633 6.606 6.606 0 0 0-2.186-.42c-.962-.043-1.267-.055-3.709-.055s-2.755 0-3.71.055a6.606 6.606 0 0 0-2.185.42 4.607 4.607 0 0 0-2.633 2.633 6.554 6.554 0 0 0-.419 2.185c-.043.963-.056 1.268-.056 3.71s0 2.754.056 3.71c.015.748.156 1.486.419 2.187a4.61 4.61 0 0 0 2.634 2.632 6.584 6.584 0 0 0 2.185.45c.963.043 1.268.056 3.71.056s2.755 0 3.71-.056a6.59 6.59 0 0 0 2.186-.419 4.615 4.615 0 0 0 2.633-2.633c.263-.7.404-1.438.419-2.187.043-.962.056-1.267.056-3.71-.002-2.442-.002-2.752-.058-3.709zm-8.953 8.297c-2.554 0-4.623-2.069-4.623-4.623s2.069-4.623 4.623-4.623a4.623 4.623 0 0 1 0 9.246zm4.807-8.339a1.077 1.077 0 0 1-1.078-1.078 1.077 1.077 0 1 1 2.155 0c0 .596-.482 1.078-1.077 1.078z"></path><circle cx="11.994" cy="11.979" r="3.003"></circle></svg></span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="60px" height="24" viewBox="0 0 24 24" style="fill: rgb(114, 214, 181);transform: ;msFilter:;"><path d="M19.633 7.997c.013.175.013.349.013.523 0 5.325-4.053 11.461-11.46 11.461-2.282 0-4.402-.661-6.186-1.809.324.037.636.05.973.05a8.07 8.07 0 0 0 5.001-1.721 4.036 4.036 0 0 1-3.767-2.793c.249.037.499.062.761.062.361 0 .724-.05 1.061-.137a4.027 4.027 0 0 1-3.23-3.953v-.05c.537.299 1.16.486 1.82.511a4.022 4.022 0 0 1-1.796-3.354c0-.748.199-1.434.548-2.032a11.457 11.457 0 0 0 8.306 4.215c-.062-.3-.1-.611-.1-.923a4.026 4.026 0 0 1 4.028-4.028c1.16 0 2.207.486 2.943 1.272a7.957 7.957 0 0 0 2.556-.973 4.02 4.02 0 0 1-1.771 2.22 8.073 8.073 0 0 0 2.319-.624 8.645 8.645 0 0 1-2.019 2.083z"></path></svg>
+          <span><box-icon type='logo' name='twitter'></box-icon></span>
+          <box-icon type='logo' name='instagram'></box-icon>  
         </div>
 
-        
+       
     </footer>
     
 </body>
